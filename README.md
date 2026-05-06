@@ -49,10 +49,16 @@ The workflow follows the **“Build Once, Deploy Many”** approach to ensure re
 ```text
 multi-stage-ci-cd-pipeline/
 │
-├── Jenkins/              # CI/CD pipeline configuration
+├── src/
+│   ├── node_modules/
+│   ├── app.js
+│   ├── Jenkinsfile
+│   ├── package.json
+│   └── package-lock.json
+│
 ├── screenshots/          # Jenkins pipeline screenshot
 └── README.md
-``` 
+```
 
 ---
 
