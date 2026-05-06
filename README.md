@@ -46,17 +46,13 @@ The workflow follows the **“Build Once, Deploy Many”** approach to ensure re
 
 ## 📂 Project Structure
 
+```text
 multi-stage-ci-cd-pipeline/
 │
-├── Jenkinsfile           # CI/CD pipeline configuration  
-├── screenshots/          # Jenkins pipeline screenshot  
-└── README.md  
-
----
-
-## 📸 Pipeline Screenshot
-
-(Add your Jenkins pipeline screenshot here)
+├── Jenkins/          # CI/CD pipeline configuration
+├── screenshots/          # Jenkins pipeline screenshot
+└── README.md
+``` 
 
 ---
 
